@@ -1,0 +1,134 @@
+﻿
+body {
+    background-image: url('../imgs/detail1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    min-height: 100%;
+}
+
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Image Box */
+.image-box {
+    flex: 1;
+    padding: 20px;
+}
+
+.outer-container {
+    display: flex;
+}
+
+.image-container {
+    flex: 1;
+    padding: 20px;
+}
+
+    .image-container img {
+        max-width: 100%;
+        height: auto;
+    }
+/* Details Box */
+.details-box {
+    flex: 2;
+    padding: 20px;
+}
+
+/* Title Box */
+.title-box {
+    position: relative; /* or absolute, depending on your layout */
+    top: 20%;
+    left: 0; /* or adjust as needed */
+    margin-bottom: 20px;
+}
+
+    .title-box h2 {
+        font-size: 24px;
+        color: #333;
+    }
+
+/* Description Box */
+.description-box {
+    position: relative; /* or absolute, depending on your layout */
+    top: 20%;
+    left: 0; /* or adjust as needed */
+    margin-bottom: 20px;
+}
+
+    .description-box p {
+        margin: 5px 0;
+        font-size: 16px;
+        color: #666;
+    }
+
+    .description-box strong {
+        font-weight: bold;
+    }
+
+/* Features Box */
+.features-box {
+    position: relative; /* or absolute, depending on your layout */
+    top: 20%;
+    left: 0; /* or adjust as needed */
+    margin-bottom: 20px;
+}
+
+    .features-box h3 {
+        font-size: 20px;
+        color: #333;
+    }
+
+    .features-box ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+        .features-box ul li {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #666;
+        }
+
+.input-field {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.container-box {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+    .container-box h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+    }
+
+.input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+/* Hover Effect */
+.details-box:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}

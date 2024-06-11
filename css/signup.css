@@ -1,0 +1,90 @@
+﻿/* Sign Up Form Styles */
+.container {
+    margin-top: 50px;
+}
+
+body {
+    background-image: url('../imgs/sign3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+    min-height: 100%;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8); /* Transparent white background */
+}
+
+.card-body {
+    padding: 40px;
+    background-image: url('../imgs/sign2.jpg'); /* Background image */
+    background-size: cover; /* Cover the entire card */
+    border-radius: 15px; /* Match card border radius */
+}
+
+    .card-body h4 {
+        color: #000; /* Text color on background image */
+        font-weight: bold;
+    }
+
+    .card-body img {
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: #000; /* Text color on background image */
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 12px 25px;
+    height: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Transparent white border */
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent white background */
+    color: #333; /* Text color */
+    transition: border-color 0.3s;
+}
+
+    .form-control:focus {
+        border-color: #fff; /* Border color on focus */
+    }
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+/* Validation Summary Styles */
+.text-danger {
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+/* Back to Home Link Styles */
+a {
+    color: #000; /* Text color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
